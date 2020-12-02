@@ -1,6 +1,8 @@
 fun checkName(number: String) : Boolean {
 
     val trim: String = number.trim()
+
+    //Nao posso usar isto
     val verifyWord = number.split("\\s+".toRegex())
     val wordSize = verifyWord.size
     var validation = true;

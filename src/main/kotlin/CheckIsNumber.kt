@@ -4,7 +4,7 @@ fun checkIsNumber(number: String): Boolean {
 
     try {
 
-        var num = parseInt(number)
+        parseInt(number)
         return true
 
     } catch (e: NumberFormatException) {

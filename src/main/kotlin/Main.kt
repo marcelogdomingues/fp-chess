@@ -4,7 +4,7 @@ import java.util.*
 import kotlin.system.exitProcess
 
 
-fun main(args: Array<String>) {
+fun main() {
 
    val isRunning = true;
 
@@ -17,17 +17,18 @@ fun main(args: Array<String>) {
          val scan = Scanner(System.`in`)
          val choice = scan.next()
 
-         if(checkIsNumber(choice))
+         if(checkIsNumber(choice)) {
 
-         when (choice.toInt()) {
+            when (choice.toInt()) {
 
-            1 -> print("\n" + "You picked option 1" + "\n")
-            0 -> exitProcess(1)
-            else ->
-               print("\n" + "Option Not Available" + "\n")
+               1 -> print("\n" + "You picked option 1" + "\n")
+               0 -> exitProcess(1)
+               else ->
+                  print("\n" + "Option Not Available" + "\n")
+
+            }
 
          }
-
 
       }catch (e: NumberFormatException){
 
