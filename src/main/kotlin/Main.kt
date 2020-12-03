@@ -6,7 +6,7 @@ import kotlin.system.exitProcess
 
 fun main() {
 
-   val isRunning = true;
+   val isRunning = true
 
    while (isRunning) {
 

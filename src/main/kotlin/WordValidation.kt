@@ -14,10 +14,9 @@ fun wordValidation (wordList : List<String>) : Boolean {
 
 }
 
-
 fun asNumbers(word : String) : Boolean{
 
-    var validation = false;
+    var validation = false
     val removeBlankSpaces = word.replace("\\s".toRegex(), "")
 
     if(removeBlankSpaces.toIntOrNull() == null) {

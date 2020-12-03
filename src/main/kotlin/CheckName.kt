@@ -5,7 +5,7 @@ fun checkName(number: String) : Boolean {
     //Nao posso usar isto
     val verifyWord = number.split("\\s+".toRegex())
     val wordSize = verifyWord.size
-    var validation = true;
+    var validation = true
 
     wordValidation(verifyWord)
 
