@@ -14,6 +14,7 @@ fun board(){
 
         }
     }
+    buildBoard(5,5, true, showPieces = false)
 }
 
 fun columns(){

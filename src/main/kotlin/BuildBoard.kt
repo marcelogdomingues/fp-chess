@@ -5,13 +5,26 @@ fun buildBoard(numColumns: Int, numLines: Int, showLegend: Boolean, showPieces: 
     val startWhite = "$esc[30;30m"
     val end = "$esc[0m"
 
-
+    var i = 0
+    var j = 0
 
 
     if (showLegend == true) {
-        for (x in 1..numColumns) {
-            for (y in 1..numLines) {
-                println("$startBlue   $end")
+        while (i < numColumns && j < numLines) {
+            for (x in 0..i) {
+                i++
+                if (i == numColumns) {
+                    continue
+                }
+                for (y in 0..j) {
+                    j++
+                    if (j == numLines) {
+                        break
+                    }
+                    println("$startWhite $y $end")
+                }
+                println("$startGrey $x $end")
+
             }
         }
     }
