@@ -1,8 +1,3 @@
-package pt.ulusofona.fp.chess.game
-
-import pt.ulusofona.fp.chess.checkers.checkColumn
-import pt.ulusofona.fp.chess.checkers.checkLine
-
 var boardOption = 1
 var boardValidation = true
 

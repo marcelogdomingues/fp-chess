@@ -1,5 +1,3 @@
-package pt.ulusofona.fp.chess.checkers
-
 fun checkName(number: String) : Boolean {
 
     val trim: String = number.trim()

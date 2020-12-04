@@ -1,8 +1,3 @@
-import pt.ulusofona.fp.chess.build.buildMenu
-import pt.ulusofona.fp.chess.checkers.checkIsNumber
-import pt.ulusofona.fp.chess.game.game
-import pt.ulusofona.fp.chess.game.startGame
-
 import java.lang.NumberFormatException
 import java.util.*
 import kotlin.system.exitProcess

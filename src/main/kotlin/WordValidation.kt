@@ -1,5 +1,3 @@
-package pt.ulusofona.fp.chess.checkers
-
 fun wordValidation (wordList : List<String>) : Boolean {
 
     var wordValidation = false;

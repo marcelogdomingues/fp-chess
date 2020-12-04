@@ -1,5 +1,3 @@
-package pt.ulusofona.fp.chess.game
-
 fun startGame(){
 
     players()

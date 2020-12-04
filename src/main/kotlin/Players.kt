@@ -1,7 +1,3 @@
-package pt.ulusofona.fp.chess.game
-
-import pt.ulusofona.fp.chess.checkers.checkName
-
 var playerOption = 1
 var playerValidation = true
 

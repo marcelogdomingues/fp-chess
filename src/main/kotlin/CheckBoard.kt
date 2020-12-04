@@ -1,5 +1,3 @@
-package pt.ulusofona.fp.chess.checkers
-
 import java.lang.NumberFormatException
 
 fun checkLine(lines: String): Boolean {

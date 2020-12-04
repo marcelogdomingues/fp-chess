@@ -1,5 +1,3 @@
-package pt.ulusofona.fp.chess.checkers
-
 import java.lang.Integer.parseInt
 
 fun checkIsNumber(number: String): Boolean {
