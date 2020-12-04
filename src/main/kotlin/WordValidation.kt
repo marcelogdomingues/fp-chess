@@ -2,7 +2,7 @@ fun wordValidation (wordList : List<String>) : Boolean {
 
     var wordValidation = false;
 
-    if (wordSize(wordList) && asNumbers(wordList[0]) && asNumbers(wordList[1]) && hasUpperCase(wordList)) {
+    if (wordSize(wordList) && hasNumbers(wordList[0]) && hasNumbers(wordList[1]) && hasUpperCase(wordList)) {
 
         wordValidation = true
 
@@ -12,7 +12,7 @@ fun wordValidation (wordList : List<String>) : Boolean {
 
 }
 
-fun asNumbers(word : String) : Boolean{
+fun hasNumbers(word : String) : Boolean{
 
     var validation = false
     val removeBlankSpaces = word.replace("\\s".toRegex(), "")

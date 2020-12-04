@@ -22,8 +22,9 @@ fun main() {
 
                     1 -> {
 
-                        startGame()
                         isRunning = false
+                        startGame()
+
 
                     }
 

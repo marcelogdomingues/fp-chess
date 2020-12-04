@@ -11,8 +11,6 @@ fun checkName(number: String) : Boolean {
 
         print("\n" + "Invalid response." + "\n")
 
-    validation = false
-
     }else if(wordValidation(verifyWord)){
 
         validation = true
