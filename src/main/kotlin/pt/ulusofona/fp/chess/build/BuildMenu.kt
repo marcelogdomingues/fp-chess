@@ -1,3 +1,5 @@
+package pt.ulusofona.fp.chess.build
+
 fun buildMenu(): String{
 
     val welcome =  "Welcome to the Chess Board Game!"

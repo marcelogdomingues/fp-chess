@@ -3,17 +3,18 @@ fun buildBoard(numColumns: Int, numLines: Int, showLegend: Boolean, showPieces: 
     val startBlue = "$esc[30;44m"
     val startGrey = "$esc[30;47m"
     val startWhite = "$esc[30;30m"
+    val end = "$esc[0m"
 
-    var board = arrayOf(intArrayOf(numColumns), intArrayOf(numLines))
 
-    for(x in 0..numColumns) {
-        for(y in 0..numLines) {
+
+
+    if (showLegend == true) {
+        for (x in 1..numColumns) {
+            for (y in 1..numLines) {
+                println("$startBlue   $end")
+            }
         }
     }
-
-    /*if(columns < 5 || lines < 5) {
-        print("Invalid response")
-    }*/
 
     return "Número de colunas: $numColumns" + "Número de linhas: $numLines" + "$showLegend" + "$showPieces"
 }

@@ -1,3 +1,5 @@
+package pt.ulusofona.fp.chess.checkers
+
 import java.lang.Integer.parseInt
 
 fun checkIsNumber(number: String): Boolean {
@@ -9,7 +11,7 @@ fun checkIsNumber(number: String): Boolean {
 
     } catch (e: NumberFormatException) {
 
-        print("\n" + "Invalid response")
+        print("\n" + "Invalid response" + e.message)
         return false
 
     }

@@ -1,10 +1,10 @@
+package pt.ulusofona.fp.chess.checkers
+
 fun wordValidation (wordList : List<String>) : Boolean {
 
     var wordValidation = false;
-    val word = wordList.joinToString().replace(",", "")
 
-
-    if (asNumbers(word) && hasUpperCase(wordList)) {
+    if (wordSize(wordList) && asNumbers(wordList[0]) && asNumbers(wordList[1]) && hasUpperCase(wordList)) {
 
         wordValidation = true
 
@@ -42,5 +42,20 @@ fun hasUpperCase(word : List<String>) : Boolean {
 
 
     return validation
+
+}
+
+fun wordSize(word : List<String>) : Boolean{
+
+    var validation = false
+
+    if(word.size == 2){
+
+        validation = true
+
+    }
+
+    return validation
+
 
 }
