@@ -1,0 +1,447 @@
+FAILURE: TestTeacherProject.buildBoard5x5WithLegendAndPieces1
+org.junit.ComparisonFailure:
+Chess not equal expected:<&amp#27;[[30;44m   &amp#27;[0m&amp#27;[30;44m A &amp#27;[0m&amp#27;[30;44m B &amp#27;[0m&amp#27;[30;44m C &amp#27;[0m&amp#27;[30;44m D &amp#27;[0m&amp#27;[30;44m E &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 1 &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;47m ♟ &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;47m ♟ &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 2 &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 3 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 4 &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 5 &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;47m ♙ &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;47m ♙ &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+]> but was:<&amp#27;[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherProject.buildBoard5x5WithLegendAndPieces1(TestTeacherProject.kt:71)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherProject.buildBoard5x5WithLegendAndPieces2
+org.junit.ComparisonFailure:
+Chess not equal expected:<&amp#27;[[30;44m   &amp#27;[0m&amp#27;[30;44m A &amp#27;[0m&amp#27;[30;44m B &amp#27;[0m&amp#27;[30;44m C &amp#27;[0m&amp#27;[30;44m D &amp#27;[0m&amp#27;[30;44m E &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 1 &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;47m ♟ &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;47m ♟ &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 2 &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 3 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 4 &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 5 &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;47m ♙ &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;47m ♙ &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+]> but was:<&amp#27;[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherProject.buildBoard5x5WithLegendAndPieces2(TestTeacherProject.kt:83)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherProject.buildBoard5x5NoLegendNoPiecesWithNoParameters
+org.junit.ComparisonFailure:
+Chess not equal expected:<[&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m
+&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m
+&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+]> but was:<[Número de colunas: 5 Número de linhas: 5 false  false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherProject.buildBoard5x5NoLegendNoPiecesWithNoParameters(TestTeacherProject.kt:34)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherProject.buildBoard5x5NoLegendNoPieces1
+org.junit.ComparisonFailure:
+Chess not equal expected:<[&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m
+&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m
+&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+]> but was:<[Número de colunas: 5 Número de linhas: 5 false  false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherProject.buildBoard5x5NoLegendNoPieces1(TestTeacherProject.kt:14)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherProject.buildBoard5x5NoLegendNoPieces2
+org.junit.ComparisonFailure:
+Chess not equal expected:<[&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m
+&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m
+&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+]> but was:<[Número de colunas: 5 Número de linhas: 5 false  false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherProject.buildBoard5x5NoLegendNoPieces2(TestTeacherProject.kt:24)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherProject.launchGameAndExit1
+java.lang.AssertionError:
+Expecting something from the stdin but it was something from the stdout.  Last 5 lines were:
+[OUT]: (enter)
+[OUT]: 0-> Exit(enter)
+[OUT]: (enter)
+[OUT]: (enter)
+[OUT]: (enter)
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.checkLine(StdinStdoutHelper.java:267)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.write(StdinStdoutHelper.java:250)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:321)
+	at java.base/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:110)
+	at java.base/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:181)
+	at java.base/java.io.PrintStream.newLine(PrintStream.java:742)
+	at java.base/java.io.PrintStream.println(PrintStream.java:1055)
+	at BuildMenuKt.buildMenu(BuildMenu.kt:10)
+	at MainKt.main(Main.kt:12)
+	at TestTeacherProject.launchGameAndExit1(TestTeacherProject.kt:93)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+FAILURE: TestTeacherProject.startNewGameWithInvalidInputs
+java.lang.AssertionError:
+Expecting something from the stdin but it was something from the stdout.  Last 5 lines were:
+[OUT]: (enter)
+[OUT]: 0-> Exit(enter)
+[OUT]: (enter)
+[OUT]: (enter)
+[OUT]: (enter)
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.checkLine(StdinStdoutHelper.java:267)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.write(StdinStdoutHelper.java:250)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:321)
+	at java.base/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:110)
+	at java.base/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:181)
+	at java.base/java.io.PrintStream.newLine(PrintStream.java:742)
+	at java.base/java.io.PrintStream.println(PrintStream.java:1055)
+	at BuildMenuKt.buildMenu(BuildMenu.kt:10)
+	at MainKt.main(Main.kt:12)
+	at TestTeacherProject.startNewGameWithInvalidInputs(TestTeacherProject.kt:300)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+FAILURE: TestTeacherProject.startNewGame1
+org.junit.ComparisonFailure:
+ Last 5 lines were:
+[OUT]: Welcome to the Chess Board Game!(enter)
+[OUT]: (enter)
+[OUT]: 1-> Start New Game(enter)
+[OUT]: (enter)
+ expected:<1-> Start New Game[;]> but was:<1-> Start New Game[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at pt.ulusofona.deisi.Command.validateAgainst(StdinStdoutHelper.java:78)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.checkLine(StdinStdoutHelper.java:264)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.write(StdinStdoutHelper.java:250)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:321)
+	at java.base/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:110)
+	at java.base/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:181)
+	at java.base/java.io.PrintStream.newLine(PrintStream.java:742)
+	at java.base/java.io.PrintStream.println(PrintStream.java:1055)
+	at BuildMenuKt.buildMenu(BuildMenu.kt:8)
+	at MainKt.main(Main.kt:12)
+	at TestTeacherProject.startNewGame1(TestTeacherProject.kt:128)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherProject.startNewGame2
+java.lang.AssertionError:
+Expecting something from the stdin but it was something from the stdout.  Last 5 lines were:
+[OUT]: (enter)
+[OUT]: 0-> Exit(enter)
+[OUT]: (enter)
+[OUT]: (enter)
+[OUT]: (enter)
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.checkLine(StdinStdoutHelper.java:267)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.write(StdinStdoutHelper.java:250)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:321)
+	at java.base/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:110)
+	at java.base/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:181)
+	at java.base/java.io.PrintStream.newLine(PrintStream.java:742)
+	at java.base/java.io.PrintStream.println(PrintStream.java:1055)
+	at BuildMenuKt.buildMenu(BuildMenu.kt:10)
+	at MainKt.main(Main.kt:12)
+	at TestTeacherProject.startNewGame2(TestTeacherProject.kt:166)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+FAILURE: TestTeacherProject.startNewGame3
+java.lang.AssertionError:
+Expecting something from the stdin but it was something from the stdout.  Last 5 lines were:
+[OUT]: (enter)
+[OUT]: 0-> Exit(enter)
+[OUT]: (enter)
+[OUT]: (enter)
+[OUT]: (enter)
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.checkLine(StdinStdoutHelper.java:267)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.write(StdinStdoutHelper.java:250)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:321)
+	at java.base/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:110)
+	at java.base/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:181)
+	at java.base/java.io.PrintStream.newLine(PrintStream.java:742)
+	at java.base/java.io.PrintStream.println(PrintStream.java:1055)
+	at BuildMenuKt.buildMenu(BuildMenu.kt:10)
+	at MainKt.main(Main.kt:12)
+	at TestTeacherProject.startNewGame3(TestTeacherProject.kt:194)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+FAILURE: TestTeacherProject.startNewGame4
+java.lang.AssertionError:
+Expecting something from the stdin but it was something from the stdout.  Last 5 lines were:
+[OUT]: (enter)
+[OUT]: 0-> Exit(enter)
+[OUT]: (enter)
+[OUT]: (enter)
+[OUT]: (enter)
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.checkLine(StdinStdoutHelper.java:267)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.write(StdinStdoutHelper.java:250)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:321)
+	at java.base/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:110)
+	at java.base/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:181)
+	at java.base/java.io.PrintStream.newLine(PrintStream.java:742)
+	at java.base/java.io.PrintStream.println(PrintStream.java:1055)
+	at BuildMenuKt.buildMenu(BuildMenu.kt:10)
+	at MainKt.main(Main.kt:12)
+	at TestTeacherProject.startNewGame4(TestTeacherProject.kt:228)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+FAILURE: TestTeacherProject.startNewGame5
+java.lang.AssertionError:
+Expecting something from the stdin but it was something from the stdout.  Last 5 lines were:
+[OUT]: (enter)
+[OUT]: 0-> Exit(enter)
+[OUT]: (enter)
+[OUT]: (enter)
+[OUT]: (enter)
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.checkLine(StdinStdoutHelper.java:267)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.write(StdinStdoutHelper.java:250)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:321)
+	at java.base/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:110)
+	at java.base/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:181)
+	at java.base/java.io.PrintStream.newLine(PrintStream.java:742)
+	at java.base/java.io.PrintStream.println(PrintStream.java:1055)
+	at BuildMenuKt.buildMenu(BuildMenu.kt:10)
+	at MainKt.main(Main.kt:12)
+	at TestTeacherProject.startNewGame5(TestTeacherProject.kt:264)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+FAILURE: TestTeacherProject.buildBoard5x5WithLegendNoPieces1
+org.junit.ComparisonFailure:
+Chess not equal expected:<&amp#27;[[30;44m   &amp#27;[0m&amp#27;[30;44m A &amp#27;[0m&amp#27;[30;44m B &amp#27;[0m&amp#27;[30;44m C &amp#27;[0m&amp#27;[30;44m D &amp#27;[0m&amp#27;[30;44m E &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 1 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 2 &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 3 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 4 &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 5 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+]> but was:<&amp#27;[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherProject.buildBoard5x5WithLegendNoPieces1(TestTeacherProject.kt:47)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherProject.buildBoard5x5WithLegendNoPieces2
+org.junit.ComparisonFailure:
+Chess not equal expected:<&amp#27;[[30;44m   &amp#27;[0m&amp#27;[30;44m A &amp#27;[0m&amp#27;[30;44m B &amp#27;[0m&amp#27;[30;44m C &amp#27;[0m&amp#27;[30;44m D &amp#27;[0m&amp#27;[30;44m E &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 1 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 2 &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 3 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 4 &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 5 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+]> but was:<&amp#27;[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherProject.buildBoard5x5WithLegendNoPieces2(TestTeacherProject.kt:59)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
