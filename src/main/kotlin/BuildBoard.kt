@@ -1,4 +1,4 @@
-fun buildBoard(numColumns: Int, numLines: Int, showLegend: Boolean, showPieces: Boolean) : String {
+fun buildBoard(numColumns: Int, numLines: Int, showLegend: Boolean = false, showPieces: Boolean = false) : String {
     val esc: String = Character.toString(27)
     val startBlue = "$esc[30;44m"
     val startGrey = "$esc[30;47m"
