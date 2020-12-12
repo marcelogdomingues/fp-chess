@@ -7,17 +7,21 @@ fun buildBoard(numColumns: Int, numLines: Int, showLegend: Boolean, showPieces: 
 
     println("$startBlue $end")
 
-    if (showLegend == true) {
+    println("------$numColumns---------$numLines")
+
+    if (showLegend) {
             for (x in 0..numColumns) {
                 for(x in 0..numLines) {
                     if(x % 2 == 0) {
-                        startWhite
+                        println(startWhite)
                     }
-                    startGrey
+                        println(startGrey)
                 }
 
         }
+
         return esc
+
     }
 
     return "Número de colunas: $numColumns" + "Número de linhas: $numLines" + "$showLegend" + "$showPieces"
