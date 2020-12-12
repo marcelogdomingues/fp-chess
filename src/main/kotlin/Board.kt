@@ -88,7 +88,7 @@ fun showChessLegendOrPieces(message: String): Boolean?{
 
 fun showLegend() : Boolean {
 
-    print("\n" + "Show pieces (y/n)?" + "\n")
+    print("\n" + "Show legend (y/n)?" + "\n")
 
     val legend = readLine()
 
@@ -122,7 +122,7 @@ fun getShowChessLegendValue(): Boolean{
 fun showPieces() : Boolean {
 
 
-    print("\n" + "Show legend (y/n)?" + "\n")
+    print("\n" + "Show pieces (y/n)?" + "\n")
 
     val pieces = readLine()
 

@@ -5,23 +5,14 @@ fun buildBoard(numColumns: Int, numLines: Int, showLegend: Boolean, showPieces: 
     val startWhite = "$esc[30;30m"
     val end = "$esc[0m"
 
-    println("$startBlue $end")
-
-    println("------$numColumns---------$numLines")
-
-    if (showLegend) {
-            for (x in 0..numColumns) {
-                for(x in 0..numLines) {
-                    if(x % 2 == 0) {
-                        println(startWhite)
-                    }
-                        println(startGrey)
-                }
-
+    for (x in 0..numColumns) {
+        for (y in 0..numLines) {
+            if (x % 2 == 0) {
+                print("$startWhite $end")
+            } else {
+                print("$startGrey $end")
+            }
         }
-
-        return esc
-
     }
 
     return "Número de colunas: $numColumns" + "Número de linhas: $numLines" + "$showLegend" + "$showPieces"
