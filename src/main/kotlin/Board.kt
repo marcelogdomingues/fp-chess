@@ -3,22 +3,26 @@ var boardValidation = true
 
 var cols = 0;
 var rows = 0;
+var showLegend = false
+var showPiece = false
 
 fun board(){
 
 
     while (boardValidation) {
 
-        when (boardOption) {
+            when (boardOption) {
 
-            1 -> columns()
-            2 -> lines()
+                1 -> columns()
+                2 -> lines()
+                3 -> showChessLegend()
+                4 -> showPieces()
 
         }
+
     }
 
-    buildBoard(getColumns(),getLines(), true, showPieces = false)
-
+    buildBoard(getColumns(),getLines(), getShowChessLegendValue(), getShowPiecesValue())
 }
 
 fun columns(){
@@ -53,7 +57,6 @@ fun lines(){
 
         boardOption++
         rows = line.toString().toInt()
-        boardValidation = false
 
     }
 
@@ -67,13 +70,85 @@ fun getLines() : Int {
 fun showChessLegendOrPieces(message: String): Boolean?{
 
 
-    return true;
+    if(message == "y" || message == "Y"){
+
+        return true
+
+    }else if(message == "n" || message == "N"){
+
+        return false
+
+    }else{
+
+        return null
+
+    }
+
 }
 
-fun showChessLegend(){
+fun showChessLegend() : Boolean {
+
+    print("\n" + "Show pieces (y/n)?" + "\n")
+
+    val legend = readLine()
+
+    if(showChessLegendOrPieces(legend.toString()) == true){
+
+        boardOption++
+        showLegend = true
+
+    }else if(showChessLegendOrPieces(legend.toString()) == false){
+
+        boardOption++
+        showLegend = false
+
+    }else if(showChessLegendOrPieces(legend.toString()) == null){
+
+        print("\n" + "Invalid Response" + "\n")
+
+
+    }
+
+    return showLegend
 
 }
 
-fun showPieces(){
+fun getShowChessLegendValue(): Boolean{
+
+
+    return showLegend
+}
+
+fun showPieces() : Boolean {
+
+
+    print("\n" + "Show legend (y/n)?" + "\n")
+
+    val pieces = readLine()
+
+    if(showChessLegendOrPieces(pieces.toString()) == true){
+
+        boardOption++
+        showPiece = true
+        boardValidation = false
+
+    }else if(showChessLegendOrPieces(pieces.toString()) == false){
+
+        boardOption++
+        showPiece = false
+        boardValidation = false
+
+    }else if (showChessLegendOrPieces(pieces.toString()) == null){
+
+        print("\n" + "Invalid response" + "\n")
+
+    }
+
+    return showPiece
+}
+
+fun getShowPiecesValue() : Boolean {
+
+    return showPiece
 
 }

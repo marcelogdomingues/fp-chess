@@ -11,7 +11,7 @@ fun checkLine(lines: String): Boolean {
 
         if (lineNumber < 5) {
 
-            print("\n" + "Invalid response")
+            print("\n" + "Invalid response" + "\n")
 
         }else{
 
@@ -22,7 +22,7 @@ fun checkLine(lines: String): Boolean {
 
     } catch (e: NumberFormatException) {
 
-        print("\n" + "Invalid response")
+        print("\n" + "Invalid response" + "\n")
 
     }
 
@@ -40,7 +40,7 @@ fun checkColumn(cols: String): Boolean {
 
         if (colNumber < 5) {
 
-            print("Invalid response")
+            print("\n" + "Invalid response" + "\n")
 
         }else{
 
@@ -51,7 +51,7 @@ fun checkColumn(cols: String): Boolean {
 
     } catch (e: NumberFormatException) {
 
-        print("Invalid response")
+        print("\n" + "Invalid response" + "\n")
 
     }
 
