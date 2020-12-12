@@ -15,7 +15,7 @@ fun board(){
 
                 1 -> columns()
                 2 -> lines()
-                3 -> showChessLegend()
+                3 -> showLegend()
                 4 -> showPieces()
 
         }
@@ -86,7 +86,7 @@ fun showChessLegendOrPieces(message: String): Boolean?{
 
 }
 
-fun showChessLegend() : Boolean {
+fun showLegend() : Boolean {
 
     print("\n" + "Show pieces (y/n)?" + "\n")
 
