@@ -9,7 +9,7 @@ fun main() {
 
     while (isRunning) {
 
-        print(buildMenu())
+            buildMenu()
 
         try {
 
