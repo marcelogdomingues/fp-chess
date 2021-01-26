@@ -22,7 +22,7 @@ fun board(){
 
     }
 
-    buildBoard(getColumns(),getLines(), showLegend = getShowChessLegendValue(), getShowPiecesValue())
+    buildBoard(getColumns()+1,getLines()+1, showLegend = getShowChessLegendValue(), getShowPiecesValue())
 
 }
 
