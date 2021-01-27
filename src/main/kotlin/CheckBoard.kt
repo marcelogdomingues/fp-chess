@@ -1,9 +1,8 @@
 import java.lang.NumberFormatException
 
+var lineValidation = false;
+
 fun checkLine(lines: String): Boolean {
-
-    var lineValidation = false
-
 
     try {
 

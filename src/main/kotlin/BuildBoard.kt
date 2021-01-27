@@ -3,7 +3,7 @@ val startBlue = "$esc[30;44m"
 val startGrey = "$esc[30;47m"
 val startWhite = "$esc[30;30m"
 val end = "$esc[0m"
-var x = 0
+var validator = 0
 val alphabetArray = "abcdefghijklmnopqrstuvwxyz".toCharArray()
 val numbersArray = "1234567890".toCharArray()
 
@@ -31,7 +31,7 @@ fun createInitialBoard(numColumns: Int, numLines: Int): Array<Pair<String, Strin
 
 fun buildBlueLayer(numColumns: Int, numLines: Int) {
 
-    while (x <= 0) {
+    while (validator <= 0) {
 
         for (i in 0..numLines) {
 
@@ -40,45 +40,70 @@ fun buildBlueLayer(numColumns: Int, numLines: Int) {
                 //First Line
                 if (i == 0) {
 
-                    if (j == numColumns) {
+                    //Ultima Coluna
+                    when {
+                        j == numColumns -> {
 
-                        println("$startBlue   $end")
+                            println("$startBlue   $end")
 
+                            //Restamtes Colunas
+                        }
+                        j >= 1 -> {
 
-                    } else if (j >= 1) {
+                            val alphabet = alphabetArray[j - 1].toUpperCase()
+                            print("$startBlue $alphabet $end")
 
-                        val alphabet = alphabetArray[j - 1].toUpperCase()
-                        print("$startBlue $alphabet $end")
+                            //Primeira Coluna
+                        }
+                        else -> {
 
-                    } else {
+                            print("$startBlue   $end")
 
-                        print("$startBlue   $end")
-
+                        }
                     }
                 }
 
-                if (i > 0 && i < numLines) {
+                if (i in 1 until numLines) {
+
 
                     if (j == 0) {
 
                         val numbers = numbersArray[i - 1].toUpperCase()
-                        println("$startBlue $numbers $end")
+                        print("$startBlue $numbers $end")
 
+                    } else if (j in 1 until numColumns) {
 
+                        if (j % 2 == 0) {
 
-                    }else if(j < numColumns && j > numColumns){
+                            if (i % 2 == 0) {
 
-                        if(j % 2 == 0){
+                                print("$startWhite   $end")
 
-                            print("$startBlue     $end")
+                            } else {
 
+                                print("$startGrey   $end")
+                            }
+
+                        }else{
+
+                            if (i % 2 == 0) {
+
+                                print("$startGrey   $end")
+
+                            } else {
+
+                                print("$startWhite   $end")
+
+                            }
                         }
+
+                    }else if (j == numColumns) {
+
+                        println("$startBlue   $end")
 
                     }
 
                 }
-
-
 
                 //Last Line
                 if (i == numLines && j < numColumns && j > 0) {
@@ -96,10 +121,11 @@ fun buildBlueLayer(numColumns: Int, numLines: Int) {
 
         }
 
-        x = 1
+        validator = 1
 
     }
 
 }
+
 
 
