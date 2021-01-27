@@ -5,8 +5,8 @@ fun checkName(number: String) : Boolean {
     var validation = false
 
     try {
-        val trim: String = number.trim()
 
+        val trim: String = number.trim()
         val verifyWord = number.split(" ")
 
 
@@ -17,6 +17,10 @@ fun checkName(number: String) : Boolean {
         } else if (wordValidation(verifyWord)) {
 
             validation = true
+
+        }else{
+
+            print("\n" + "Invalid response." + "\n")
 
         }
 

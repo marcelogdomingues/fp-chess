@@ -1,0 +1,703 @@
+FAILURE: TestTeacher2Epoca.test_01_OBG_replaceWithSpecificPiece
+Dashboard 4x4 must have all H pieces type: arrays first differed at element [2]; expected:<(T, b)> but was:<(H, b)>
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:55)
+	at org.junit.Assert.internalArrayEquals(Assert.java:532)
+	at org.junit.Assert.assertArrayEquals(Assert.java:283)
+	at TestTeacher2Epoca.test_01_OBG_replaceWithSpecificPiece(TestTeacher2Epoca.kt:23)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.lang.AssertionError: expected:<(T, b)> but was:<(H, b)>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at org.junit.internal.ExactComparisonCriteria.assertElementsEqual(ExactComparisonCriteria.java:8)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:53)
+	... 15 more
+
+
+
+FAILURE: TestTeacher2Epoca.test_02_OBG_isASpecificPieceValid
+java.lang.AssertionError: "T" is a true option expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacher2Epoca.test_02_OBG_isASpecificPieceValid(TestTeacher2Epoca.kt:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacher2Epoca.test_03_OBG_wantSpecificPiece
+java.lang.AssertionError: "y" is a true option expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacher2Epoca.test_03_OBG_wantSpecificPiece(TestTeacher2Epoca.kt:78)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+FAILURE: TestTeacherGameInteraction.test_01_Game
+org.junit.ComparisonFailure: 
+ Last 5 lines were:
+[OUT]: Welcome to the Chess Board Game!(enter)
+[OUT]: (enter)
+[OUT]: 1-> Start New Game(enter)
+[OUT]: (enter)
+ expected:<1-> Start New Game[;]> but was:<1-> Start New Game[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at pt.ulusofona.deisi.Command.validateAgainst(StdinStdoutHelper.java:78)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.checkLine(StdinStdoutHelper.java:264)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.write(StdinStdoutHelper.java:250)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:321)
+	at java.base/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:110)
+	at java.base/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:181)
+	at java.base/java.io.PrintStream.newLine(PrintStream.java:742)
+	at java.base/java.io.PrintStream.println(PrintStream.java:1055)
+	at BuildMenuKt.buildMenu(BuildMenu.kt:8)
+	at MainKt.main(Main.kt:12)
+	at TestTeacherGameInteraction.test_01_Game(TestTeacherGameInteraction.kt:70)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherGameInteraction.test_01_OBG_ExitMenu
+java.lang.AssertionError: 
+Expecting something from the stdin but it was something from the stdout.  Last 5 lines were:
+[OUT]: (enter)
+[OUT]: 0-> Exit(enter)
+[OUT]: (enter)
+[OUT]: (enter)
+[OUT]: (enter)
+
+	at org.junit.Assert.fail(Assert.java:88)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.checkLine(StdinStdoutHelper.java:267)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.write(StdinStdoutHelper.java:250)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:321)
+	at java.base/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:110)
+	at java.base/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:181)
+	at java.base/java.io.PrintStream.newLine(PrintStream.java:742)
+	at java.base/java.io.PrintStream.println(PrintStream.java:1055)
+	at BuildMenuKt.buildMenu(BuildMenu.kt:10)
+	at MainKt.main(Main.kt:12)
+	at TestTeacherGameInteraction.test_01_OBG_ExitMenu(TestTeacherGameInteraction.kt:16)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherGameInteraction.test_02_Game
+org.junit.ComparisonFailure: 
+ Last 5 lines were:
+[OUT]: Welcome to the Chess Board Game!(enter)
+[OUT]: (enter)
+[OUT]: 1-> Start New Game(enter)
+[OUT]: (enter)
+ expected:<1-> Start New Game[;]> but was:<1-> Start New Game[]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at pt.ulusofona.deisi.Command.validateAgainst(StdinStdoutHelper.java:78)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.checkLine(StdinStdoutHelper.java:264)
+	at pt.ulusofona.deisi.StdinStdoutHelper$1.write(StdinStdoutHelper.java:250)
+	at java.base/sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:242)
+	at java.base/sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:321)
+	at java.base/sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:110)
+	at java.base/java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:181)
+	at java.base/java.io.PrintStream.newLine(PrintStream.java:742)
+	at java.base/java.io.PrintStream.println(PrintStream.java:1055)
+	at BuildMenuKt.buildMenu(BuildMenu.kt:8)
+	at MainKt.main(Main.kt:12)
+	at TestTeacherGameInteraction.test_02_Game(TestTeacherGameInteraction.kt:175)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_01_OBG_CreateInitialBoard
+java.lang.AssertionError: Dashboard 8x8 not equal: array lengths differed, expected.length=64 actual.length=0
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.internal.ComparisonCriteria.assertArraysAreSameLength(ComparisonCriteria.java:76)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:37)
+	at org.junit.Assert.internalArrayEquals(Assert.java:532)
+	at org.junit.Assert.assertArrayEquals(Assert.java:283)
+	at TestTeacherMandatoryFunctions.test_01_OBG_CreateInitialBoard(TestTeacherMandatoryFunctions.kt:63)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_02_createTotalPiecesAndTurn
+java.lang.AssertionError: TotalPiecesAndTurn 8x8 not equal: array lengths differed, expected.length=3 actual.length=5
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.internal.ComparisonCriteria.assertArraysAreSameLength(ComparisonCriteria.java:76)
+	at org.junit.internal.ComparisonCriteria.arrayEquals(ComparisonCriteria.java:37)
+	at org.junit.Assert.internalArrayEquals(Assert.java:532)
+	at org.junit.Assert.assertArrayEquals(Assert.java:283)
+	at TestTeacherMandatoryFunctions.test_02_createTotalPiecesAndTurn(TestTeacherMandatoryFunctions.kt:80)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_03_OBG_convertStringToUnicode
+org.junit.ComparisonFailure: P_b must be equals to \u265F expected:<[♟]> but was:<[0]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_03_OBG_convertStringToUnicode(TestTeacherMandatoryFunctions.kt:91)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_04_OBG_GetCoordinates
+java.lang.AssertionError: 1a must be Pair(1, 1) expected:<(1, 1)> but was:<null>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_04_OBG_GetCoordinates(TestTeacherMandatoryFunctions.kt:121)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_05_checkRightPieceSelected
+java.lang.AssertionError: W color must be selected by the 0 turn (white pieces player) expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_05_checkRightPieceSelected(TestTeacherMandatoryFunctions.kt:133)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_06_OBG_isCoordinateInsideChess
+java.lang.AssertionError: Pair(1, 1) must be inside of 8x8 Chess expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_06_OBG_isCoordinateInsideChess(TestTeacherMandatoryFunctions.kt:146)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_07_movePiece
+java.lang.AssertionError: White pieces player could move from Pair(7, 1) to Pair(6, 1) with chess equals to [Lkotlin.Pair;@51c76058 expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_07_movePiece(TestTeacherMandatoryFunctions.kt:191)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_09_isHorseValid1
+java.lang.AssertionError: Moving white horse from (8,2) to (7,4) should be possible expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_09_isHorseValid1(TestTeacherMandatoryFunctions.kt:266)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_10_isHorseValid2
+java.lang.AssertionError: Moving white horse from (8,7) to (7,5) should be possible expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_10_isHorseValid2(TestTeacherMandatoryFunctions.kt:293)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_12_OBG_isKingValid1
+java.lang.AssertionError: Moving white king from (4,4) to (3,3) should be possible expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_12_OBG_isKingValid1(TestTeacherMandatoryFunctions.kt:322)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_13_OBG_isKingValid2
+java.lang.AssertionError: Moving white king from (4,4) to (5,4) should be possible expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_13_OBG_isKingValid2(TestTeacherMandatoryFunctions.kt:361)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_14_isTowerValid1
+java.lang.AssertionError: Moving tower from (8,1) to (6,1) should be possible expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_14_isTowerValid1(TestTeacherMandatoryFunctions.kt:409)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_15_isTowerValid2
+java.lang.AssertionError: Moving white tower from (4,3) to (4,4) should be possible expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_15_isTowerValid2(TestTeacherMandatoryFunctions.kt:428)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_17_OBG_isBishopValid1
+java.lang.AssertionError: Moving white bishop from (8,3) to (7,2) should be possible expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_17_OBG_isBishopValid1(TestTeacherMandatoryFunctions.kt:478)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_18_OBG_isBishopValid2
+java.lang.AssertionError: Moving white bishop from (8,3) to (7,2) should be possible expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_18_OBG_isBishopValid2(TestTeacherMandatoryFunctions.kt:502)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_19_isQueenValid1
+java.lang.AssertionError: Moving white queen from (8,1) to (7,1) should be possible expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_19_isQueenValid1(TestTeacherMandatoryFunctions.kt:552)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_20_isQueenValid2
+java.lang.AssertionError: Moving white queen from (4,4) to (4,3) should be possible expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_20_isQueenValid2(TestTeacherMandatoryFunctions.kt:597)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_22_isKnightValid1
+java.lang.AssertionError: Moving white pawn from (5,5) to (6,5) should be possible expected:<true> but was:<false>
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_22_isKnightValid1(TestTeacherMandatoryFunctions.kt:645)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_23_OBG_buildBoard
+org.junit.ComparisonFailure: 
+Dashboard not equal expected:<[&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m A &amp#27;[0m&amp#27;[30;44m B &amp#27;[0m&amp#27;[30;44m C &amp#27;[0m&amp#27;[30;44m D &amp#27;[0m&amp#27;[30;44m E &amp#27;[0m&amp#27;[30;44m F &amp#27;[0m&amp#27;[30;44m G &amp#27;[0m&amp#27;[30;44m H &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 1 &amp#27;[0m&amp#27;[30;30m ♜ &amp#27;[0m&amp#27;[30;47m ♞ &amp#27;[0m&amp#27;[30;30m ♝ &amp#27;[0m&amp#27;[30;47m ♛ &amp#27;[0m&amp#27;[30;30m ♚ &amp#27;[0m&amp#27;[30;47m ♝ &amp#27;[0m&amp#27;[30;30m ♞ &amp#27;[0m&amp#27;[30;47m ♜ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 2 &amp#27;[0m&amp#27;[30;47m ♟ &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;47m ♟ &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;47m ♟ &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;47m ♟ &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 3 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 4 &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 5 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 6 &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 7 &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;47m ♙ &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;47m ♙ &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;47m ♙ &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;47m ♙ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 8 &amp#27;[0m&amp#27;[30;47m ♖ &amp#27;[0m&amp#27;[30;30m ♘ &amp#27;[0m&amp#27;[30;47m ♗ &amp#27;[0m&amp#27;[30;30m ♔ &amp#27;[0m&amp#27;[30;47m ♕ &amp#27;[0m&amp#27;[30;30m ♗ &amp#27;[0m&amp#27;[30;47m ♘ &amp#27;[0m&amp#27;[30;30m ♖ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+]> but was:<[Número de colunas: 8 Número de linhas: 8 true  true]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_23_OBG_buildBoard(TestTeacherMandatoryFunctions.kt:688)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_24_OBG_buildBoard2
+org.junit.ComparisonFailure: 
+Dashboard not equal expected:<[&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m A &amp#27;[0m&amp#27;[30;44m B &amp#27;[0m&amp#27;[30;44m C &amp#27;[0m&amp#27;[30;44m D &amp#27;[0m&amp#27;[30;44m E &amp#27;[0m&amp#27;[30;44m F &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 1 &amp#27;[0m&amp#27;[30;30m ♜ &amp#27;[0m&amp#27;[30;47m ♝ &amp#27;[0m&amp#27;[30;30m ♛ &amp#27;[0m&amp#27;[30;47m ♚ &amp#27;[0m&amp#27;[30;30m ♝ &amp#27;[0m&amp#27;[30;47m ♞ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 2 &amp#27;[0m&amp#27;[30;47m ♟ &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;47m ♟ &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;47m ♟ &amp#27;[0m&amp#27;[30;30m ♟ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 3 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 4 &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 5 &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 6 &amp#27;[0m&amp#27;[30;47m ♙ &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;47m ♙ &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;47m ♙ &amp#27;[0m&amp#27;[30;30m ♙ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m 7 &amp#27;[0m&amp#27;[30;30m ♖ &amp#27;[0m&amp#27;[30;47m ♗ &amp#27;[0m&amp#27;[30;30m ♔ &amp#27;[0m&amp#27;[30;47m ♕ &amp#27;[0m&amp#27;[30;30m ♗ &amp#27;[0m&amp#27;[30;47m ♘ &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m&amp#27;[30;44m   &amp#27;[0m
+]> but was:<[Número de colunas: 6 Número de linhas: 7 true  true]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_24_OBG_buildBoard2(TestTeacherMandatoryFunctions.kt:739)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+
+
+
+FAILURE: TestTeacherMandatoryFunctions.test_25_OBG_buildBoard3
+org.junit.ComparisonFailure: 
+Dashboard not equal expected:<[&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m
+&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m
+&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m
+&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m
+&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m&amp#27;[30;30m   &amp#27;[0m&amp#27;[30;47m   &amp#27;[0m
+]> but was:<[Número de colunas: 6 Número de linhas: 7 false  false]>
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at kotlin.test.junit.JUnitAsserter.assertEquals(JUnitSupport.kt:32)
+	at kotlin.test.AssertionsKt__AssertionsKt.assertEquals(Assertions.kt:57)
+	at kotlin.test.AssertionsKt.assertEquals(Unknown Source)
+	at TestTeacherMandatoryFunctions.test_25_OBG_buildBoard3(TestTeacherMandatoryFunctions.kt:764)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:298)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:292)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:832)

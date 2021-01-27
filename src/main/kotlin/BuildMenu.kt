@@ -7,7 +7,7 @@ fun buildMenu() : String{
     println(welcome)
     println(start)
     println(quit)
-    println("\n")
+
 
     val menuBuilder = welcome + start + quit
 

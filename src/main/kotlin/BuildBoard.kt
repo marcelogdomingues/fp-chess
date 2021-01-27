@@ -7,8 +7,16 @@ var x = 0
 val alphabetArray = "abcdefghijklmnopqrstuvwxyz".toCharArray()
 val numbersArray = "1234567890".toCharArray()
 
+//Devolve uma string que contém a informação do tabuleiro. Devem adaptar a função que fizeram na parte 1 para construir o tabuleiro a partir do array de peças que é passado como parâmetro.
+fun buildBoard(
+    numColumns: Int,
+    numLines: Int,
+    showLegend: Boolean = false,
+    showPieces: Boolean = false,
+    pieces: Array<Pair<String, String>?>
+): String {
 
-fun buildBoard(numColumns: Int, numLines: Int, showLegend: Boolean = false, showPieces: Boolean = false): String {
+    pieces.size
 
     buildBlueLayer(numColumns, numLines)
 
@@ -16,8 +24,12 @@ fun buildBoard(numColumns: Int, numLines: Int, showLegend: Boolean = false, show
 
 }
 
-fun buildBlueLayer(numColumns: Int, numLines: Int) {
+//A partir do número de colunas e linhas, será necessário construir e retornar um array de Pair (peças do tabuleiro). Esta estrutura está explicada na secção “Estrutura do jogo”.
+fun createInitialBoard(numColumns: Int, numLines: Int): Array<Pair<String, String>?> {
+    return arrayOf()
+}
 
+fun buildBlueLayer(numColumns: Int, numLines: Int) {
 
     while (x <= 0) {
 
@@ -30,17 +42,17 @@ fun buildBlueLayer(numColumns: Int, numLines: Int) {
 
                     if (j == numColumns) {
 
-                        print("$startBlue        $end")
-                        print("\n")
+                        println("$startBlue   $end")
+
 
                     } else if (j >= 1) {
 
                         val alphabet = alphabetArray[j - 1].toUpperCase()
-                        print("$startBlue    $alphabet    $end")
+                        print("$startBlue $alphabet $end")
 
                     } else {
 
-                        print("$startBlue        $end")
+                        print("$startBlue   $end")
 
                     }
                 }
@@ -49,24 +61,34 @@ fun buildBlueLayer(numColumns: Int, numLines: Int) {
 
                     if (j == 0) {
 
-                        val numbes = numbersArray[i - 1].toUpperCase()
-                        print("$startBlue    $numbes    $end")
-                        print("\n")
+                        val numbers = numbersArray[i - 1].toUpperCase()
+                        println("$startBlue $numbers $end")
 
+
+
+                    }else if(j < numColumns && j > numColumns){
+
+                        if(j % 2 == 0){
+
+                            print("$startBlue     $end")
+
+                        }
 
                     }
 
                 }
 
+
+
                 //Last Line
                 if (i == numLines && j < numColumns && j > 0) {
 
-                    print("$startBlue         $end")
+                    print("$startBlue   $end")
                     //x = 1
 
                 } else if (i == numLines && j == 0 || i == numLines && j == numColumns) {
 
-                    print("$startBlue        $end")
+                    print("$startBlue   $end")
 
                 }
 
@@ -77,6 +99,7 @@ fun buildBlueLayer(numColumns: Int, numLines: Int) {
         x = 1
 
     }
+
 }
 
 

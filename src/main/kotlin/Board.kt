@@ -22,7 +22,7 @@ fun board(){
 
     }
 
-    buildBoard(getColumns()+1,getLines()+1, showLegend = getShowChessLegendValue(), getShowPiecesValue())
+    buildBoard(getColumns()+1,getLines()+1, showLegend = getShowChessLegendValue(), getShowPiecesValue(), arrayOfNulls(5))
 
 }
 
@@ -145,6 +145,7 @@ fun showPieces() : Boolean {
 
     }
 
+    print("\n")
     return showPiece
 }
 
