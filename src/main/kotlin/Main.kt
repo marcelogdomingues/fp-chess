@@ -1,3 +1,4 @@
+import java.awt.event.KeyEvent
 import java.lang.NumberFormatException
 import java.util.*
 import kotlin.system.exitProcess
@@ -5,12 +6,16 @@ import kotlin.system.exitProcess
 
 fun main() {
 
-    buildBoard(6,6, true, true,arrayOfNulls(5))
-    /*var isRunning = true
+    //buildBoard(6,6, true, true,arrayOfNulls(5))
+   menu()
+}
+
+fun menu() {
+    var isRunning = true
 
     while (isRunning) {
 
-            buildMenu()
+        buildMenu()
 
         try {
 
@@ -30,21 +35,20 @@ fun main() {
                     }
 
                     0 -> exitProcess(1)
+
                     else ->
-                        print("\n" + "Option Not Available" + "\n")
+
+                        println("Option Not Available")
 
                 }
-
-
             }
 
         } catch (e: NumberFormatException) {
 
-            print("Error. You have to choose a number!")
+            println("Error. You have to choose a number!")
 
         }
 
-    }*/
+    }
 }
-
 

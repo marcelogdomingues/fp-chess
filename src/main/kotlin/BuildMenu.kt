@@ -9,9 +9,7 @@ fun buildMenu() : String{
     println(quit)
 
 
-    val menuBuilder = welcome + start + quit
-
-    return menuBuilder
+    return welcome + start + quit
 
 }
 

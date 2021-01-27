@@ -9,7 +9,7 @@ fun checkIsNumber(number: String): Boolean {
 
     } catch (e: NumberFormatException) {
 
-        print("\n" + "Invalid response")
+        println("Invalid response")
         return false
 
     }

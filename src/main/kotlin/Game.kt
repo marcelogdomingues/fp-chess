@@ -1,3 +1,6 @@
+
+import kotlin.system.exitProcess
+
 fun startGame(){
 
     players()
@@ -14,7 +17,29 @@ fun game(){
 //É nesta função que é mostrado o tabuleiro e é onde pede constantemente para cada jogador colocar as coordenadas de partida e de origem.
 // Também é aqui que dá a opção de retornar ao menu principal, clicando na tecla “m”.
 // É de notar que os argumentos whitePlayer e blackPlayer são os nomes dados pelos utilizador, em que o whitePlayer é o nome do 1o jogador e o blackPlayer é o nome do 2o jogador.
-fun startNewGame (whitePlayer: String, blackPlayer: String, pieces : Array<Pair<String, String>?>, totalPiecesAndTurn : Array<Int?>,numColumns: Int,numLines: Int, showLegend: Boolean= false, showPieces: Boolean = false){
+fun startNewGame (whitePlayer: String, blackPlayer: String, pieces : Array<Pair<String, String>?>, totalPiecesAndTurn : Array<Int?>,numColumns: Int,numLines: Int, showLegend: Boolean, showPieces: Boolean){
+
+    buildBoard(numColumns = numColumns + 1, numLines = numLines + 1, showLegend = showLegend, showPieces = showPieces,  pieces = arrayOfNulls(5))
+
+    println("\n" + "Menu-> m;" + "\n")
+
+    val userInput = readLine()
+
+
+    if(userInput.toString() == "m" || userInput.toString() == "M"){
+
+      menu()
+
+    }else if(userInput.toString() == "2"){
+
+        exitProcess(1)
+
+    }else{
+
+        buildBoard(numColumns = numColumns + 1, numLines = numLines + 1, showLegend = showLegend, showPieces = showPieces,  pieces = arrayOfNulls(5))
+
+    }
+
 
 }
 

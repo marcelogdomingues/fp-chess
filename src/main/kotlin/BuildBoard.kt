@@ -2,21 +2,15 @@ val esc: String = Character.toString(27)
 val startBlue = "$esc[30;44m"
 val startGrey = "$esc[30;47m"
 val startWhite = "$esc[30;30m"
+val torre = "$esc[30;30m♜"
 val end = "$esc[0m"
 var validator = 0
 val alphabetArray = "abcdefghijklmnopqrstuvwxyz".toCharArray()
 val numbersArray = "1234567890".toCharArray()
 
 //Devolve uma string que contém a informação do tabuleiro. Devem adaptar a função que fizeram na parte 1 para construir o tabuleiro a partir do array de peças que é passado como parâmetro.
-fun buildBoard(
-    numColumns: Int,
-    numLines: Int,
-    showLegend: Boolean,
-    showPieces: Boolean,
-    pieces: Array<Pair<String, String>?>
-): String {
+fun buildBoard(numColumns: Int, numLines: Int, showLegend: Boolean, showPieces: Boolean, pieces: Array<Pair<String, String>?>): String {
 
-    pieces.size
 
     while (validator <= 0) {
 
@@ -127,6 +121,8 @@ fun buildBoard(
         validator = 1
 
     }
+
+    validator = 0
 
     return "Número de colunas: $numColumns Número de linhas: $numLines $showLegend  $showPieces"
 

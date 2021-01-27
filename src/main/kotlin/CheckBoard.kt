@@ -1,6 +1,6 @@
 import java.lang.NumberFormatException
 
-var lineValidation = false;
+var lineValidation = false
 
 fun checkLine(lines: String): Boolean {
 
@@ -8,7 +8,7 @@ fun checkLine(lines: String): Boolean {
 
         val lineNumber = lines.toInt()
 
-        if (lineNumber < 5) {
+        if (lineNumber < 4) {
 
             print("\n" + "Invalid response" + "\n")
 
@@ -37,7 +37,7 @@ fun checkColumn(cols: String): Boolean {
 
         val colNumber = cols.toInt()
 
-        if (colNumber < 5) {
+        if (colNumber < 4) {
 
             print("\n" + "Invalid response" + "\n")
 
@@ -56,3 +56,4 @@ fun checkColumn(cols: String): Boolean {
 
     return columnValidation
 }
+
