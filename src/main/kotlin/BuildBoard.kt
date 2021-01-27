@@ -11,25 +11,12 @@ val numbersArray = "1234567890".toCharArray()
 fun buildBoard(
     numColumns: Int,
     numLines: Int,
-    showLegend: Boolean = false,
-    showPieces: Boolean = false,
+    showLegend: Boolean,
+    showPieces: Boolean,
     pieces: Array<Pair<String, String>?>
 ): String {
 
     pieces.size
-
-    buildBlueLayer(numColumns, numLines)
-
-    return "Número de colunas: $numColumns Número de linhas: $numLines $showLegend  $showPieces"
-
-}
-
-//A partir do número de colunas e linhas, será necessário construir e retornar um array de Pair (peças do tabuleiro). Esta estrutura está explicada na secção “Estrutura do jogo”.
-fun createInitialBoard(numColumns: Int, numLines: Int): Array<Pair<String, String>?> {
-    return arrayOf()
-}
-
-fun buildBlueLayer(numColumns: Int, numLines: Int) {
 
     while (validator <= 0) {
 
@@ -46,12 +33,20 @@ fun buildBlueLayer(numColumns: Int, numLines: Int) {
 
                             println("$startBlue   $end")
 
-                            //Restamtes Colunas
+                            //Restantes Colunas
                         }
                         j >= 1 -> {
 
-                            val alphabet = alphabetArray[j - 1].toUpperCase()
-                            print("$startBlue $alphabet $end")
+                            if (showLegend) {
+
+                                val alphabet = alphabetArray[j - 1].toUpperCase()
+                                print("$startBlue  $alphabet  $end")
+
+                            } else {
+
+                                print("$startBlue     $end")
+
+                            }
 
                             //Primeira Coluna
                         }
@@ -68,8 +63,16 @@ fun buildBlueLayer(numColumns: Int, numLines: Int) {
 
                     if (j == 0) {
 
-                        val numbers = numbersArray[i - 1].toUpperCase()
-                        print("$startBlue $numbers $end")
+                        if (showLegend) {
+
+                            val numbers = numbersArray[i - 1].toUpperCase()
+                            print("$startBlue $numbers $end")
+
+                        } else {
+
+                            print("$startBlue   $end")
+
+                        }
 
                     } else if (j in 1 until numColumns) {
 
@@ -77,27 +80,27 @@ fun buildBlueLayer(numColumns: Int, numLines: Int) {
 
                             if (i % 2 == 0) {
 
-                                print("$startWhite   $end")
+                                print("$startWhite     $end")
 
                             } else {
 
-                                print("$startGrey   $end")
+                                print("$startGrey     $end")
                             }
 
-                        }else{
+                        } else {
 
                             if (i % 2 == 0) {
 
-                                print("$startGrey   $end")
+                                print("$startGrey     $end")
 
                             } else {
 
-                                print("$startWhite   $end")
+                                print("$startWhite     $end")
 
                             }
                         }
 
-                    }else if (j == numColumns) {
+                    } else if (j == numColumns) {
 
                         println("$startBlue   $end")
 
@@ -108,7 +111,7 @@ fun buildBlueLayer(numColumns: Int, numLines: Int) {
                 //Last Line
                 if (i == numLines && j < numColumns && j > 0) {
 
-                    print("$startBlue   $end")
+                    print("$startBlue     $end")
                     //x = 1
 
                 } else if (i == numLines && j == 0 || i == numLines && j == numColumns) {
@@ -125,7 +128,15 @@ fun buildBlueLayer(numColumns: Int, numLines: Int) {
 
     }
 
+    return "Número de colunas: $numColumns Número de linhas: $numLines $showLegend  $showPieces"
+
 }
+
+//A partir do número de colunas e linhas, será necessário construir e retornar um array de Pair (peças do tabuleiro). Esta estrutura está explicada na secção “Estrutura do jogo”.
+fun createInitialBoard(numColumns: Int, numLines: Int): Array<Pair<String, String>?> {
+    return arrayOf()
+}
+
 
 
 

@@ -5,7 +5,7 @@ import kotlin.system.exitProcess
 
 fun main() {
 
-    buildBoard(6,6, false,false,arrayOfNulls(5))
+    buildBoard(6,6, true, true,arrayOfNulls(5))
     /*var isRunning = true
 
     while (isRunning) {
